@@ -3,6 +3,7 @@ Dfc::Application.routes.draw do
   get "static_pages/home"
 
   get "static_pages/help"
+  get "static_pages/about"
 
   # This line mounts Refinery's routes at the root of your application.
   # This means, any requests to the root URL of your application will go to Refinery::PagesController#home.
